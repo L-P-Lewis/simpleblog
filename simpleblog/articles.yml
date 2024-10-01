@@ -1,0 +1,8 @@
+- title : Test Article
+  article_id : TestArticle
+  description : This is a test article
+  date : "2024-09-19"
+- title : Case of the Killer Robot Case Procedings
+  article_id : KillerRobotProcedings
+  description : Notes from a mock trial
+  date : "2024-09-20"

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/./assets/main.css">
+        <link rel="icon" type="image/x-icon" href="/./assets/favicon.png">
+        <title>Simple Blog</title>
+    </head>
+    <body>
+        <ul class = "nav_bar">
+            <li><a href="/">Home</a></li>
+            <li><a href="articles">Articles</a></li>
+            <li><a href="feed" style="float: right;">Feed</a></li>
+        </ul>
+        
+        <div class = "main_content">
+            <h1>Welcome to Simpleblog</h1>
+            <p>Simpleblog is a minimal blog site backend written in Rust using the Poem crate.</p>
+            <h2>Latest Article</h2>
+            <div>{latest_article}</div>
+        </div>
+    </body>
+</html>
+    

@@ -1,0 +1,138 @@
+body {
+  background-color: #bbb;
+  margin: 0;
+}
+
+
+.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav_bar li {
+  float: left;
+
+}
+
+.nav_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+}
+
+.nav_bar li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: black;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: black;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_content {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #EEE;
+  margin-bottom: 0;
+}
+
+.article_preview {
+  background-color: #222;
+  color: #EEE;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.article_preview h2 {
+  color: #EEE;
+}
+
+.article_preview .preview_content{
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  margin-bottom: 2px;
+}
+
+.article_preview a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+}
+
+.article_preview a:hover {
+  background-color: #111;
+}
+
+.main_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.article_navlinks {
+}
+
+
+.article_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.article_bar li {
+  float: left;
+
+}
+
+.article_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+}
+
+.article_bar li a:hover {
+  background-color: #111;
+}
